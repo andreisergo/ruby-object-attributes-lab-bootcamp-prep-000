@@ -20,3 +20,7 @@ class Dog
     @breed
   end
 end
+
+dog1 = Dog.new("Rex", "Maltese")
+puts dog1.name
+puts dog1.breed
